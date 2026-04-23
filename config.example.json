@@ -1,0 +1,16 @@
+{
+  "_comment": "Copy to config.json and fill in your values",
+  "mode": "vercel_edge",
+  "front_domain": "vercel.com",
+  "front_ip": "",
+  "worker_host": "YOUR_PROJECT.vercel.app",
+  "relay_path": "/api/api",
+  "auth_key": "CHANGE_ME",
+  "enable_batch": false,
+  "enable_h2": false,
+  "listen_host": "127.0.0.1",
+  "listen_port": 8085,
+  "log_level": "INFO",
+  "verify_ssl": true,
+  "hosts": {}
+}

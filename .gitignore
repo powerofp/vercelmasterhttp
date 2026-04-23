@@ -1,0 +1,35 @@
+# Secrets & user config
+config.json
+.env
+
+# CA certificates (generated at runtime, contain private keys)
+ca/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp MITM certs
+domainfront_certs_*/
